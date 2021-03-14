@@ -1,10 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\ts\Bridge\Sorter.ts" />
+    <Content Remove="wwwroot\ts\Bridge\SortImple.ts" />
     <Content Remove="wwwroot\ts\CommandPattern\Command.ts" />
     <Content Remove="wwwroot\ts\CommandPattern\CommandMain.ts" />
     <Content Remove="wwwroot\ts\CommandPattern\Invoker.ts" />
